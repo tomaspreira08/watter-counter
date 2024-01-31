@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Água</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted playsinline>
+            <source src="water_-_19258 (540p).mp4" type="video/mp4">
+        </video>
+        <div id="container">
+            <h1>Calculadora de Água</h1>
+            <label for="weight">Peso (kg): </label>
+            <input type="number" id="weight" placeholder="Insira seu peso" required>
+            <button onclick="calcularAgua()">Calcular</button>
+            <p id="result"></p>
+        
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
